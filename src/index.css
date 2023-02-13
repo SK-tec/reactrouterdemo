@@ -5,9 +5,31 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(250, 240, 227);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+li{
+  list-style: none;
+  }
+  ul{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(207, 207, 212); 
+  }
+  li{
+   color:white ;
+  }
+
+  h1{
+    color: green;
+  }
+  h2{
+    color: blue;
+  }
+  address{
+    color:coral
+  }
